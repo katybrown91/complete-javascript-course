@@ -47,7 +47,7 @@ var fullAge = 18;
 var isFullAge = now - yearJohn >= fullAge; //true
 console.log(isFullAge);
 
-//Challenge
+//Challenge 1
 
 // BMI = mass / height^2 = mass / (height * height)
 
@@ -61,3 +61,14 @@ var bmiMark = massMark / (heightMark * heightMark)
 
 var isHigher = bmiMark > bmiJohn;
 console.log('Is Mark\'s BMI higher than John\'s?' + isHigher)
+
+// If/else
+
+var firstName = "John";
+var civilStatus = "single";
+
+if(civilStatus === 'married'){
+  console.log(firstName + 'is married')
+} else{
+  console.log(firstName + 'is single')
+}

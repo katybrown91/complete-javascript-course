@@ -72,3 +72,37 @@ if(civilStatus === 'married'){
 } else{
   console.log(firstName + 'is single')
 }
+
+// Ternerary Operator
+
+var firstName = 'John';
+var age = 16;
+
+age >= 18 ? console.log(firstName + 'drinks beer')
+: console.log(firstName + ' drinks juice');
+
+// Switch Statements
+
+var job = 'teacher';
+switch(job){
+  case 'teacher':
+    console.log(firstName + ' teaches kids how to code');
+    break;
+    case 'driver':
+      console.log(firstName + ' drives an Uber');
+      break;
+      default:
+        console.log(firstName + ' does something else');
+}
+
+//Truthy and Falsy
+// Falsy values: undefined, 0, null, ' ', NaN
+//Truthy values: NOT Falsy
+
+var height;
+
+if(height){
+  console.log('The variable has been defined');
+} else{
+  console.log('The variable has not been defined');
+}
